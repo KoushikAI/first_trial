@@ -40,107 +40,108 @@ class SecondScreen extends StatelessWidget {
     return Scaffold(
         body: Center(
       child: Container(
+          width: double.infinity,
+          height: 60,
           child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          RaisedButton(
-            // Within the `FirstRoute` widget
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(builder: (context) => First()),
-              );
-            },
-            textColor: Colors.white,
-            color: Colors.blueAccent,
-            disabledColor: Colors.grey,
-            disabledTextColor: Colors.white,
-            highlightColor: Colors.orangeAccent,
-            width: double.infinity,
-            height: 60,
-            elevation: 8.0,
-            child: Text(
-              '1st Year',
-              style: TextStyle(
-                fontSize: 32.0,
-                color: Colors.redAccent,
-                fontWeight: FontWeight.w500,
-              ),
-            ),
-          ),
-          SizedBox(
-            //Use of SizedBox
-            height: 30,
-          ),
-          RaisedButton(
-            onPressed: () {
-              debugPrint('I am Awesome');
-            },
-            textColor: Colors.white,
-            color: Colors.blueAccent,
-            disabledColor: Colors.grey,
-            disabledTextColor: Colors.white,
-            highlightColor: Colors.orangeAccent,
-            elevation: 8.0,
-            child: SizedBox(
-              child: Text(
-                '2nd Year',
-                style: TextStyle(
-                  fontSize: 32.0,
-                  color: Colors.greenAccent,
-                  fontWeight: FontWeight.w500,
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              RaisedButton(
+                // Within the `FirstRoute` widget
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => First()),
+                  );
+                },
+                textColor: Colors.white,
+                color: Colors.blueAccent,
+                disabledColor: Colors.grey,
+                disabledTextColor: Colors.white,
+                highlightColor: Colors.orangeAccent,
+
+                elevation: 8.0,
+                child: Text(
+                  '1st Year',
+                  style: TextStyle(
+                    fontSize: 32.0,
+                    color: Colors.redAccent,
+                    fontWeight: FontWeight.w500,
+                  ),
                 ),
               ),
-            ),
-          ),
-          SizedBox(
-            //Use of SizedBox
-            height: 30,
-          ),
-          RaisedButton(
-            onPressed: () {
-              debugPrint('I am Awesome');
-            },
-            textColor: Colors.white,
-            color: Colors.blueAccent,
-            disabledColor: Colors.grey,
-            disabledTextColor: Colors.white,
-            highlightColor: Colors.orangeAccent,
-            elevation: 8.0,
-            child: Text(
-              '3rd Year',
-              style: TextStyle(
-                fontSize: 32.0,
-                color: Colors.greenAccent,
-                fontWeight: FontWeight.w500,
+              SizedBox(
+                //Use of SizedBox
+                height: 30,
               ),
-            ),
-          ),
-          SizedBox(
-            //Use of SizedBox
-            height: 30,
-          ),
-          RaisedButton(
-            onPressed: () {
-              debugPrint('I am Awesome');
-            },
-            textColor: Colors.white,
-            color: Colors.blueAccent,
-            disabledColor: Colors.grey,
-            disabledTextColor: Colors.white,
-            highlightColor: Colors.orangeAccent,
-            elevation: 8.0,
-            child: Text(
-              '4th Year',
-              style: TextStyle(
-                fontSize: 32.0,
-                color: Colors.greenAccent,
-                fontWeight: FontWeight.w500,
+              RaisedButton(
+                onPressed: () {
+                  debugPrint('I am Awesome');
+                },
+                textColor: Colors.white,
+                color: Colors.blueAccent,
+                disabledColor: Colors.grey,
+                disabledTextColor: Colors.white,
+                highlightColor: Colors.orangeAccent,
+                elevation: 8.0,
+                child: SizedBox(
+                  child: Text(
+                    '2nd Year',
+                    style: TextStyle(
+                      fontSize: 32.0,
+                      color: Colors.greenAccent,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
               ),
-            ),
-          ),
-        ],
-      )),
+              SizedBox(
+                //Use of SizedBox
+                height: 30,
+              ),
+              RaisedButton(
+                onPressed: () {
+                  debugPrint('I am Awesome');
+                },
+                textColor: Colors.white,
+                color: Colors.blueAccent,
+                disabledColor: Colors.grey,
+                disabledTextColor: Colors.white,
+                highlightColor: Colors.orangeAccent,
+                elevation: 8.0,
+                child: Text(
+                  '3rd Year',
+                  style: TextStyle(
+                    fontSize: 32.0,
+                    color: Colors.greenAccent,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ),
+              SizedBox(
+                //Use of SizedBox
+                height: 30,
+              ),
+              RaisedButton(
+                onPressed: () {
+                  debugPrint('I am Awesome');
+                },
+                textColor: Colors.white,
+                color: Colors.blueAccent,
+                disabledColor: Colors.grey,
+                disabledTextColor: Colors.white,
+                highlightColor: Colors.orangeAccent,
+                elevation: 8.0,
+                child: Text(
+                  '4th Year',
+                  style: TextStyle(
+                    fontSize: 32.0,
+                    color: Colors.greenAccent,
+                    fontWeight: FontWeight.w500,
+                  ),
+                ),
+              ),
+            ],
+          )),
     ));
   }
 }
