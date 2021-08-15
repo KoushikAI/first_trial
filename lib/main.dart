@@ -56,6 +56,8 @@ class SecondScreen extends StatelessWidget {
             disabledColor: Colors.grey,
             disabledTextColor: Colors.white,
             highlightColor: Colors.orangeAccent,
+            width: double.infinity,
+            height: 60,
             elevation: 8.0,
             child: Text(
               '1st Year',
