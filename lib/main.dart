@@ -39,7 +39,7 @@ class SecondScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-          width: double.infinity,
+          width: 60,
           height: 60,
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
