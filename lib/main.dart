@@ -40,14 +40,6 @@ class SecondScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.green,
-        actions: <Widget>[
-          IconButton(
-            icon: Icon(
-              Icons.list,
-            ),
-            onPressed: () {},
-          )
-        ],
         title: Text(
           "GCTC",
           textAlign: TextAlign.center,
@@ -63,19 +55,40 @@ class SecondScreen extends StatelessWidget {
           children: [
             const DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.yellowAccent,
               ),
-              child: Text('Drawer Header'),
+              child: Text('Notes'),
+            ),
+            ExpansionTile(
+              title: Text("First year"),
+              children: <Widget>[
+                Text("CSE"),
+                Text("children 2")
+              ],
             ),
             ListTile(
-              title: const Text('Item 1'),
+              title: const Text('First year'),
               onTap: () {
                 // Update the state of the app.
                 // ...
               },
             ),
             ListTile(
-              title: const Text('Item 2'),
+              title: const Text('Second year'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: const Text('Third year'),
+              onTap: () {
+                // Update the state of the app.
+                // ...
+              },
+            ),
+            ListTile(
+              title: const Text('Fourth year'),
               onTap: () {
                 // Update the state of the app.
                 // ...
