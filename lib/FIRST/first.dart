@@ -37,7 +37,7 @@ class _FirstState extends State<First> {
             textAlign: TextAlign.center,
           ),
         ),
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor: Colors.white,
         body: Center(
           child: Container(
               child: Column(
