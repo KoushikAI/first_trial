@@ -103,7 +103,7 @@ class SecondScreen extends StatelessWidget {
             child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            TextButton(
+            RaisedButton(
               // Within the `FirstRoute` widget
               onPressed: () {
                 Navigator.push(
@@ -111,7 +111,13 @@ class SecondScreen extends StatelessWidget {
                   MaterialPageRoute(builder: (context) => First()),
                 );
               },
+              textColor: Colors.white,
+              color: Colors.blueAccent,
+              disabledColor: Colors.grey,
+              disabledTextColor: Colors.white,
+              highlightColor: Colors.orangeAccent,
 
+              elevation: 8.0,
               child: Text(
                 '1st Year',
                 style: TextStyle(
