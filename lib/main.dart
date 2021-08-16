@@ -62,7 +62,6 @@ class SecondScreen extends StatelessWidget {
                 '1st Year',
                 style: TextStyle(
                   fontSize: 32.0,
-                  color: Colors.redAccent,
                   fontWeight: FontWeight.w500,
                 ),
               ),
