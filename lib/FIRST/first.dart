@@ -11,7 +11,7 @@ class _FirstState extends State<First> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Colors.black12,
+        backgroundColor: Colors.pinkAccent,
         body: Center(
           child: Container(
               child: Column(
