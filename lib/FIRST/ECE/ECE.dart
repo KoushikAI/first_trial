@@ -36,7 +36,6 @@ class _ECEState extends State<ECE> {
               'ECE-A',
               style: TextStyle(
                 fontSize: 32.0,
-                color: Colors.redAccent,
                 fontWeight: FontWeight.w500,
               ),
             ),
@@ -63,7 +62,6 @@ class _ECEState extends State<ECE> {
                 'ECE-B',
                 style: TextStyle(
                   fontSize: 32.0,
-                  color: Colors.greenAccent,
                   fontWeight: FontWeight.w500,
                 ),
               ),
@@ -90,7 +88,6 @@ class _ECEState extends State<ECE> {
               'ECE-C',
               style: TextStyle(
                 fontSize: 32.0,
-                color: Colors.greenAccent,
                 fontWeight: FontWeight.w500,
               ),
             ),
@@ -116,7 +113,6 @@ class _ECEState extends State<ECE> {
               'ECE-D',
               style: TextStyle(
                 fontSize: 32.0,
-                color: Colors.greenAccent,
                 fontWeight: FontWeight.w500,
               ),
             ),
