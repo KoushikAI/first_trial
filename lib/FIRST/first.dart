@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:trail3/FIRST/CSE/CSE.dart';
 import 'package:trail3/FIRST/ECE/ECE.dart';
-import 'package:trail3/FIRST/CE/CE.dart';
 
+import '../main.dart';
 import 'CE/CE.dart';
 import 'EEE/EEE.dart';
 import 'IT/IT.dart';
@@ -17,6 +17,26 @@ class _FirstState extends State<First> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        appBar: AppBar(
+          actions: [
+            IconButton(
+              icon: Icon(
+                Icons.home,
+              ),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => SecondScreen()),
+                );
+              },
+            ),
+          ],
+          backgroundColor: Colors.green,
+          title: Text(
+            "First year",
+            textAlign: TextAlign.center,
+          ),
+        ),
         backgroundColor: Colors.pinkAccent,
         body: Center(
           child: Container(
