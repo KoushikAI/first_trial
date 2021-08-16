@@ -36,7 +36,6 @@ class _CSEState extends State<CSE> {
               'CSE-A',
               style: TextStyle(
                 fontSize: 32.0,
-                color: Colors.redAccent,
                 fontWeight: FontWeight.w500,
               ),
             ),
@@ -63,7 +62,6 @@ class _CSEState extends State<CSE> {
                 'CSE-B',
                 style: TextStyle(
                   fontSize: 32.0,
-                  color: Colors.greenAccent,
                   fontWeight: FontWeight.w500,
                 ),
               ),
@@ -90,7 +88,6 @@ class _CSEState extends State<CSE> {
               'CSE-C',
               style: TextStyle(
                 fontSize: 32.0,
-                color: Colors.greenAccent,
                 fontWeight: FontWeight.w500,
               ),
             ),
@@ -116,7 +113,6 @@ class _CSEState extends State<CSE> {
               'CSE-D',
               style: TextStyle(
                 fontSize: 32.0,
-                color: Colors.greenAccent,
                 fontWeight: FontWeight.w500,
               ),
             ),

@@ -61,7 +61,6 @@ class _FirstState extends State<First> {
                     'ECE',
                     style: TextStyle(
                       fontSize: 32.0,
-                      color: Colors.greenAccent,
                       fontWeight: FontWeight.w500,
                     ),
                   ),
@@ -85,7 +84,6 @@ class _FirstState extends State<First> {
                   'EEE',
                   style: TextStyle(
                     fontSize: 32.0,
-                    color: Colors.greenAccent,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
@@ -108,7 +106,6 @@ class _FirstState extends State<First> {
                   'ME',
                   style: TextStyle(
                     fontSize: 32.0,
-                    color: Colors.greenAccent,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
@@ -131,7 +128,6 @@ class _FirstState extends State<First> {
                   'CE',
                   style: TextStyle(
                     fontSize: 32.0,
-                    color: Colors.greenAccent,
                     fontWeight: FontWeight.w500,
                   ),
                 ),

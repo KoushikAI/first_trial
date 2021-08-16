@@ -110,7 +110,6 @@ class SecondScreen extends StatelessWidget {
                 '3rd Year',
                 style: TextStyle(
                   fontSize: 32.0,
-                  color: Colors.greenAccent,
                   fontWeight: FontWeight.w500,
                 ),
               ),
@@ -133,7 +132,6 @@ class SecondScreen extends StatelessWidget {
                 '4th Year',
                 style: TextStyle(
                   fontSize: 32.0,
-                  color: Colors.greenAccent,
                   fontWeight: FontWeight.w500,
                 ),
               ),
