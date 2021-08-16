@@ -35,7 +35,6 @@ class _FirstState extends State<First> {
                   'CSE',
                   style: TextStyle(
                     fontSize: 32.0,
-                    color: Colors.redAccent,
                     fontWeight: FontWeight.w500,
                   ),
                 ),
