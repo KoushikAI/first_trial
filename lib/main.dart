@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 import 'package:trail3/FIRST/first.dart';
 
+import 'FIRST/CSE/CSE.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -62,8 +64,28 @@ class SecondScreen extends StatelessWidget {
             ExpansionTile(
               title: Text("First year"),
               children: <Widget>[
-                Text("CSE"),
-                Text("children 2")
+                RaisedButton(
+                  // Within the `FirstRoute` widget
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(builder: (context) => CSE()),
+                    );
+                  },
+                  textColor: Colors.white,
+                  color: Colors.blueAccent,
+                  disabledColor: Colors.grey,
+                  disabledTextColor: Colors.white,
+                  highlightColor: Colors.orangeAccent,
+                  elevation: 8.0,
+                  child: Text(
+                    'CSE',
+                    style: TextStyle(
+                      fontSize: 32.0,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ),
               ],
             ),
             ListTile(
