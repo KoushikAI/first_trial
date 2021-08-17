@@ -65,8 +65,8 @@ class SecondScreen extends StatelessWidget {
               title: Text("First year"),
               children: <Widget>[
                 ButtonTheme(
-                  minWidth: 200,
-                  height: 100,
+                  minWidth: 250,
+                  height: 80,
                   child: RaisedButton(
                     // Within the `FirstRoute` widget
                     onPressed: () {
