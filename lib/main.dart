@@ -64,7 +64,7 @@ class SecondScreen extends StatelessWidget {
             ExpansionTile(
               title: Text("First year"),
               children: <Widget>[
-                RaisedButton(
+                OutlineButton(
                   // Within the `FirstRoute` widget
                   onPressed: () {
                     Navigator.push(
@@ -74,10 +74,10 @@ class SecondScreen extends StatelessWidget {
                   },
                   textColor: Colors.white,
                   color: Colors.blueAccent,
-                  disabledColor: Colors.grey,
+
                   disabledTextColor: Colors.white,
                   highlightColor: Colors.orangeAccent,
-                  elevation: 8.0,
+
                   child: Text(
                     'CSE',
                     style: TextStyle(
