@@ -64,25 +64,29 @@ class SecondScreen extends StatelessWidget {
             ExpansionTile(
               title: Text("First year"),
               children: <Widget>[
-                OutlineButton(
-                  // Within the `FirstRoute` widget
-                  onPressed: () {
-                    Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => CSE()),
-                    );
-                  },
-                  textColor: Colors.white,
-                  color: Colors.blueAccent,
-
-                  disabledTextColor: Colors.white,
-                  highlightColor: Colors.orangeAccent,
-
-                  child: Text(
-                    'CSE',
-                    style: TextStyle(
-                      fontSize: 32.0,
-                      fontWeight: FontWeight.w500,
+                ButtonTheme(
+                  minWidth: 200,
+                  height: 100,
+                  child: RaisedButton(
+                    // Within the `FirstRoute` widget
+                    onPressed: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => CSE()),
+                      );
+                    },
+                    textColor: Colors.white,
+                    color: Colors.blueAccent,
+                    disabledColor: Colors.grey,
+                    disabledTextColor: Colors.white,
+                    highlightColor: Colors.orangeAccent,
+                    elevation: 8.0,
+                    child: Text(
+                      'CSE',
+                      style: TextStyle(
+                        fontSize: 32.0,
+                        fontWeight: FontWeight.w500,
+                      ),
                     ),
                   ),
                 ),
