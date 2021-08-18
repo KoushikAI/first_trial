@@ -27,7 +27,7 @@ class Splash2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return SplashScreen(
       seconds: 1,
-      navigateAfterSeconds: new SecondScreen(),
+      navigateAfterSeconds: new First(),
       image: new Image(image: AssetImage('assets/images/open.png')),
       loadingText: Text("Loading"),
       photoSize: 100.0,
