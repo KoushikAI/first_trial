@@ -86,7 +86,6 @@ class SecondScreen extends StatelessWidget {
                       'CSE',
                       style: TextStyle(
                         fontSize: 32.0,
-                        fontWeight: FontWeight.w500,
                       ),
                     ),
                   ),
