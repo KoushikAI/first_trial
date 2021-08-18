@@ -66,7 +66,7 @@ class SecondScreen extends StatelessWidget {
               children: <Widget>[
                 ButtonTheme(
                   minWidth: 310,
-                  height: 45,
+                  height: 40,
                   child: RaisedButton(
                     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
                     // Within the `FirstRoute` widget
