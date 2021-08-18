@@ -77,7 +77,7 @@ class SecondScreen extends StatelessWidget {
                       );
                     },
                     textColor: Colors.white,
-                    color: Colors.blueAccent,
+                    color: Colors.white,
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.white,
                     highlightColor: Colors.orangeAccent,
