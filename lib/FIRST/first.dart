@@ -18,19 +18,6 @@ class _FirstState extends State<First> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          actions: [
-            IconButton(
-              icon: Icon(
-                Icons.home,
-              ),
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => SecondScreen()),
-                );
-              },
-            ),
-          ],
           backgroundColor: Colors.green,
           title: Text(
             "GCTC",
