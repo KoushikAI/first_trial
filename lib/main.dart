@@ -130,6 +130,7 @@ class SecondScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             RaisedButton(
+              shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
               // Within the `FirstRoute` widget
               onPressed: () {
                 Navigator.push(
