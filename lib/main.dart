@@ -76,7 +76,7 @@ class SecondScreen extends StatelessWidget {
                         MaterialPageRoute(builder: (context) => CSE()),
                       );
                     },
-                    textColor: Colors.white,
+                    textColor: Colors.black,
                     color: Colors.white,
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.white,
