@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-import 'CSE.dart';
+import '../first.dart';
 
-class CSE_D extends StatefulWidget {
+class ME extends StatefulWidget {
   @override
-  _CSE_DState createState() => _CSE_DState();
+  _MEState createState() => _MEState();
 }
 
-class _CSE_DState extends State<CSE_D> {
+class _MEState extends State<ME> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -20,14 +20,14 @@ class _CSE_DState extends State<CSE_D> {
             onPressed: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => CSE()),
+                MaterialPageRoute(builder: (context) => First()),
               );
             },
           ),
         ],
         backgroundColor: Colors.green,
         title: Text(
-          "CSE-D",
+          "ME",
           textAlign: TextAlign.center,
         ),
       ),
