@@ -33,7 +33,7 @@ class _FirstState extends State<First> {
           ],
           backgroundColor: Colors.green,
           title: Text(
-            "First year",
+            "GCTC",
             textAlign: TextAlign.center,
           ),
         ),
